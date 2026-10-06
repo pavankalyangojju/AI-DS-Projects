@@ -3,12 +3,12 @@
 #include <UniversalTelegramBot.h>
 
 // ================= WIFI =================
-const char* ssid = "YOUR_WIFI_NAME";
-const char* password = "YOUR_WIFI_PASSWORD";
+const char* ssid = "G";
+const char* password = "123456789";
 
 // ================= TELEGRAM =================
-#define BOT_TOKEN "YOUR_BOT_TOKEN"
-#define CHAT_ID "YOUR_CHAT_ID"
+#define BOT_TOKEN "8941366457:AAEmLqu74wW7vewbHupUil_zjCd1bms-Gfo"
+#define CHAT_ID "1367693706"
 
 WiFiClientSecure client;
 UniversalTelegramBot bot(BOT_TOKEN, client);
